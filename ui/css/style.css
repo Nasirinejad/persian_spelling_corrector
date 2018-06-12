@@ -1,0 +1,66 @@
+body{
+    background-image: url('../img/bg.png');
+}
+.inner{
+    width: auto;
+    padding: 0px 100px;
+}
+textarea{
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    opacity: 0.8;
+    font-family: arial;
+}
+textarea:focus{
+    opacity: 1;
+}
+#submit{
+    display: block;
+    width: 100%;
+    border: none;
+    background: rgb(71, 175, 57);
+    font-size: 25px;
+    color: aliceblue;
+}
+.footer{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    color: rgb(231, 228, 199);
+}
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: 300px auto;
+    background-color: #005;
+    border-radius: 100%;  
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes sk-scaleout {
+    0% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 100% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+.popbox{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    display: none;
+}
