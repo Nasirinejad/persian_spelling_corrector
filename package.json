@@ -1,0 +1,15 @@
+{
+    "name": "PSC",
+    "preferGlobal": false,
+    "version": "1.0.1",
+    "author": "Mahdi Nasirinejad",
+    "description": "persian spelling corrector",
+    "dependencies":{
+    },
+    "analyze": false,
+    "devDependencies": { },
+    "bundledDependencies":[],
+    "engines": {
+      "node": ">=4.0.0"
+    }
+  }
